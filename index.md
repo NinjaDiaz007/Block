@@ -2,8 +2,8 @@
 layout: default
 ---
 
-# [Wolf](./wolf.html)
-En esta libreria es parecida a bootstrap en alguns clases pero tiene componentes diferentes que contiene el framework propio llamado wolf puede adentrarse para conocer mas. 
+# Wolf
+En esta libreria es parecida a bootstrap en alguns clases pero tiene componentes diferentes que contiene el framework propio llamado wolf puede adentrarse para conocer mas [ver mas](./wolf.html). 
 
 # Header 1
 
