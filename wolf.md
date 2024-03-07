@@ -4,8 +4,8 @@ layout: default
 
 # Tipografia
 Las diferentes tipos de tama&#241;o de letra para los titulos
-<p style="font-size: 64px;">Titulo 1</p>
-<p style="font-size: 54px;">Titulo 1</p>
+<h1 style="font-size: 64px;">Titulo 1</h1>
+<h1 style="font-size: 54px;">Titulo 1</h1>
 <p style="font-size: 44px;">Titulo 1</p>
 
 ```html
