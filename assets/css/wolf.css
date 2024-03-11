@@ -1,0 +1,19 @@
+/*Tipo Grafia*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*=============================================*/
+/*===============> TipoGrafia <================*/
+/*=============================================*/
+.display-1{
+    font-weight: 700;
+    font-size: 64px;
+}
+.display-2{
+    font-weight: 700;
+    font-size: 54px;
+}
+.display-3{
+    font-weight: 700;
+    font-size: 44px;
+}
+/*=============================================*/
