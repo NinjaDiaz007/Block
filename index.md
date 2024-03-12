@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Framework: "Wolf"
-Esta librería guarda cierta similitud con Bootstrap en algunas clases, pero presenta componentes distintivos que forman parte de su propio framework denominado Wolf. Para explorar más a fondo, puedes adentrarte en [ver mas](./wolf.html). 
+Esta librería guarda cierta similitud con Bootstrap en algunas clases, pero presenta componentes distintivos que forman parte de su propio framework denominado Wolf. Para explorar más a fondo, puedes adentrarte en [ver mas](./Framework_Wolf/index.html). 
 
 <!--
 | head1        | head two          | three |
