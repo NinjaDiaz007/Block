@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wolf Legends</title>
+
+        <!-- Estilos para CSS -->
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/wolf.css">
+        <!-- Icono de la Pagina -->
+        <link rel="icon" href="./img/logo-wolf.jpg">
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-hor">
+                <a href="#" class="btn link-logo">
+                    <img class="" src="./img/logo-wolf.jpg" alt="">
+                    Wolf Legends
+                </a>
+
+                <div class="enlace">
+                    <!--<a href="#" class="btn">Acerca que</a>-->
+                </div>
+            </nav>
+        </header>
+
+        <main class="contenedor-p">
+            <section class="ticket">
+                <h1 class="display-1">Genere su Ticket</h1>
+
+                <div class="cliente g-col-2 gm-col-1 mt-3">
+                    <div class="caja">
+                        <label for="nombre">Nombre de la Empresa:</label>
+                        <input type="text" name="" id="nombre">
+                    </div>
+
+                    <div class="caja">
+                        <label for="cont-principal">Contacto Princiapl:</label>
+                        <input type="text" name="" id="cont-principal">
+                    </div>
+                    <div class="caja">
+                        <label for="correo">Correo Electrónico:</label>
+                    <input type="email" name="" id="correo">
+                    </div>
+                    <div class="caja">
+                        <label for="numero">Numero Tel&#233;fonico:</label>
+                        <input type="tel" name="" id="numero">
+                    </div>
+                </div>
+
+                <h3>Descripci&#243;n del Problema</h3>
+                <textarea name="" id="descProblema" rows="5"></textarea>
+
+                <h3 class="mt-3">Prioridad del problema</h3>
+                <div class="flex mt-2">
+                    <select name="" id="problema">
+                        <option value="1">Alta</option>
+                        <option value="2">Media</option>
+                        <option value="3">Baja</option>
+                    </select>
+
+                    <input type="text" name="" id="problemaI" placeholder="Escriba su problema">
+                </div>
+
+                <h3 class="mt-3">Tipos de Problemas</h3>
+                <select name="" id="tiProblema">
+                    <option value="1">Conectividad de red</option>
+                    <option value="2">Poner Cable Nuevo</option>
+                    <option value="3">Cambiar Nodos</option>
+                </select>
+
+                <h3 class="mt-3">Informaci&#243;n Tecnica</h3>
+                <textarea name="" id="" rows="10" placeholder="Escriba su Informaci&#243;n"></textarea>
+
+                <h3>Pasos Reproducibles</h3>
+                <textarea name="" id="" rows="10" placeholder="Escriba sus Pasos"></textarea>
+
+                <div class="histoTi mt-3">
+                    <label for="hisTi">Historial del Ticket</label>
+                    <input type="text" name="" id="hisTi">
+                </div>
+
+                <h3 class="mt-3">Registro de Actividades</h3>
+                <textarea name="" id="" rows="10" placeholder="Escriba su registro"></textarea>
+
+                <h3 class="mt-3">Fecha de Creación y Estado Actual</h3>
+                <div class="grid g-col-2">
+                    <input type="date" name="" id="">
+                    <select name="" id="">
+                        <option value="1">Pendiente</option>
+                        <option value="2">Progreso</option>
+                        <option value="3">Inconclusa</option>
+                        <option value="4">Terminado</option>
+                    </select>
+                </div>
+
+                <h3 class="mt-3">Notas Adicionales</h3>
+                <input type="text" name="" id="" class="wd-10">
+
+                <div class="botones">
+                    <button id="btn-prenviar" class="mt-3 btn lbl-enviar">Enviar</button>
+                </div>
+                
+                
+            </section>
+        </main>
+
+        <input type="checkbox" id="btn-preenviar">
+        <div class="confirmar">
+            <h2>Esta seguro de finalizar y enviar los datos al cliene</h2>
+            <div class="flex mt-2">
+                <button class="btn" id="cancelar">Cancelar</button>
+                <button class="btn" id="enviar">Enviar</button>
+            </div>
+        </div>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
