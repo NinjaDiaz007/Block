@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Framework: "Wolf"
-Esta librería guarda cierta similitud con Bootstrap en algunas clases, pero presenta componentes distintivos que forman parte de su propio framework denominado Wolf. Para explorar más a fondo, puedes adentrarte en [ver mas](./Framework_Wolf/index.html). 
+Si bien esta librería comparte ciertas similitudes con Bootstrap en algunas clases, destaca por sus componentes distintivos que forman parte de su propio framework denominado Wolf. Para una exploración más detallada, te invitamos a adentrarte y [descubrir más](./Framework_Wolf/index.html). 
 
 # Wolf Legends
 Este programa nos facilitará la creación de un sistema de tickets, asegurando que los empleados estén bien informados sobre los procesos necesarios. [Haz clic aquí para saber más](./Generar_Ticket/index.html).
