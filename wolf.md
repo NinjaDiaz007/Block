@@ -1,20 +1,23 @@
 ---
 layout: default
 ---
-<!-- Tipo grafia -->
-<h1 class="font-size: 64px;">Tipografia</h1>
-Las diferentes tipos de tama&#241;o de letra para los titulos
-<h3 style="font-size: 64px;">Titulo 1</h3>
-<h3 style="font-size: 54px;">Titulo 2</h3>
-<h3 style="font-size: 44px;">Titulo 3</h3>
+<h1 style="font-size: 64px;">Descripción</h1>
+Wolf es una potente herramienta de desarrollo diseñada para simplificar la creación de interfaces web dinámicas y responsivas. Este bloque combina la flexibilidad de Bootstrap con componentes únicos del framework propio llamado Wolf, ofreciendo así una experiencia de desarrollo ágil y eficiente.
 
+<h1 style="font-size: 64px;">Características</h1>
+
+- **Integración con Bootstrap:** Aprovecha las clases familiares de Bootstrap para una familiaridad inmediata y una curva de aprendizaje suave.
+- **Componentes Únicos de Wolf:** Accede a una amplia variedad de componentes exclusivos diseñados específicamente para Wolf, agregando valor y personalización a tus proyectos.
+- **Personalización Sencilla:** Ajusta y personaliza fácilmente los estilos y comportamientos de los componentes para adaptarlos a tus necesidades específicas.
+- **Documentación Completa:** Disfruta de una documentación exhaustiva que te guiará en el proceso de implementación y te proporcionará ejemplos claros y concisos.
+
+<h1 style="font-size: 64px;">Instalación</h1>
+Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
+
+1. Descarga o clona el repositorio de Wolf.
+2. Agrega el archivo wolf.css a tu proyecto.
+3. Incluye el archivo wolf.js en tu código HTML.
 ```html
-<!-- Primer Titulo -->
-<h1 class="display1">Titulo 1</h1>
-<!-- Segundo Titulo -->
-<h1 class="display2">Titulo 2</h1>
-<!-- Tercer Titulo -->
-<h1 class="display3">Titulo 3</h1>
+<link rel="stylesheet" href="./css/wolf.css">
+<script src="./js/wolf.js">
 ```
-
-<!-- -->
