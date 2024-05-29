@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<section class="banner">
+    <div class="capa"></div>
+    <div class="info">
+        <h1 class="display-1 mb-3">Hola Soy Alan Diaz</h1>
+        <p>Desarrolador Font-End</p>
+        <a href="#sobreMi" class="btn btn-primary">Leer M&#225;s</a>
+    </div>
+</section>
+
+
 <h1 style="font-size: 64px;">Descripción</h1>
 Wolf es una potente herramienta de desarrollo diseñada para simplificar la creación de interfaces web dinámicas y responsivas. Este bloque combina la flexibilidad de Bootstrap con componentes únicos del framework propio llamado Wolf, ofreciendo así una experiencia de desarrollo ágil y eficiente.
 
@@ -22,3 +32,6 @@ Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
 <link rel="stylesheet" href="./css/wolf.css">
 <script src="./js/wolf.js">
 ```
+
+<h1 style="font-size: 64px;">Descargar</h1>
+<a dowload hred="../assets/css/wolf.css">Descargar</a>
