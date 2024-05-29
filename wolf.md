@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<section class="banner">
+<!--<section class="banner">
     <div class="capa"></div>
     <div class="info">
         <h1 class="display-1 mb-3">Hola Soy Alan Diaz</h1>
         <p>Desarrolador Font-End</p>
         <a href="#sobreMi" class="btn btn-primary">Leer M&#225;s</a>
     </div>
-</section>
+</section>-->
 
 
 <h1 style="font-size: 64px;">Descripción</h1>
