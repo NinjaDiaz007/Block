@@ -61,6 +61,7 @@ img{
     border-style: none;
     vertical-align: top;
     width: 100%;
+    height: 100%;
 }
 
 code,kbd,samp {
@@ -239,9 +240,10 @@ button:-moz-focusring,
 
 .btn-primary{
     background-color: var(--primary);
+    color: white;
 }
 .btn-primary:hover{
-    background-color: rgba(36, 52, 101,0.9);
+    background-color: rgba(36, 52, 101,0.7);
 }
 .btn-peligro{
     background-color: var(--peligro);
@@ -340,6 +342,22 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 44px;
 }
+
+.txt-100{
+	font-size: 100%;
+}
+.txt-120{
+	font-size: 120%;
+}
+.txt-140{
+	font-size: 140%;
+}
+.txt-160{
+	font-size: 160%;
+}
+.txt-180{
+	font-size: 180%;
+}
 /*=============================================*/
 
 /*=============================================*/
@@ -354,17 +372,78 @@ h1,h2,h3,h4,h5,h6{
 /*=============================================*/
 
 /*=============================================*/
+/*=========> Hero o Panel de Imaen <===========*/
+/*=============================================*/
+.hero{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero::before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	display: block;
+	opacity: 0.8;
+}
+.hero .texto{
+	z-index: 2;
+}
+.hero .texto > h1{
+	font-size: 160px;
+}
+
+@media screen and (max-width: 980px){
+	.hero{
+		height: 450px;
+	}
+	.hero .texto > h1{
+		font-size: 140px;
+	}
+}@media screen and (max-width: 750px){
+	.hero{
+		height: 400px;
+	}
+	.hero .texto > h1{
+		font-size: 120px;
+	}
+}
+@media screen and (max-width: 550px){
+	.hero{
+		height: 350px;
+	}
+	.hero .texto > h1{
+		font-size: 100px;
+	}
+}
+@media screen and (max-width: 400px){
+	.hero{
+		height: 200px;
+	}
+	.hero .texto > h1{
+		font-size: 80px;
+	}
+}
+/*=============================================*/
+
+/*=============================================*/
 /*============> Slider o Carrusel <============*/
 /*=============================================*/
 .sliders{
     width: 100%;
-    height: 400px;
+    height: 500px;
+    overflow: hidden;
   }
 .sliders .slider{
     width: 100%;
     display: flex;
     height: 100%;
-    animation: slider infinite ease-in-out 20s;
+    animation: slide infinite ease-in-out 20s;
   }
 .sliders .slider .slide{
     width: 100%;
@@ -376,6 +455,12 @@ h1,h2,h3,h4,h5,h6{
 .sliders .slider .slide .img-slide{
     width: 100%;
     height: 100%;
+}
+
+@media screen(max-width: 1200px){
+	.sliders{
+		height: 400px;
+	}
 }
 
 @keyframes slider{
@@ -591,12 +676,32 @@ h1,h2,h3,h4,h5,h6{
 /*=============================================*/
 
 /*=============================================*/
+/*===========Pagina en Contruccion=============*/
 /*=============================================*/
-/*=============================================*/
-/*=============================================*/
-/*=============================================*/
-/*=============================================*/
-/*=============================================*/
+.contruccion{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 4%;
+}
+.contruccion img{
+	width: 50%;
+}
+
+.contenido-informacion{
+	width: 100%;
+	display: flex;
+	padding: 30px;
+}
+.contenido-informacion .info{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 /*=============================================*/
 /*=============================================*/
 /*=============================================*/
