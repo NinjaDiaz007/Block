@@ -675,16 +675,16 @@ h6 {
 
 @keyframes banner{
     0%, 30%{
-      background-image: url(../img/banner1.jpg);
+      background-image: url(../images/banner1.jpg);
     }
     30%, 60%{
-      background-image: url(../img/banner2.jpg);
+      background-image: url(../images/banner2.jpg);
     }
     60%, 90%{
-      background-image: url(../img/banner3.jpg);
+      background-image: url(../images/banner3.jpg);
     }
     90%, 100%{
-      background-image: url(../img/banner1.jpg);
+      background-image: url(../images/banner1.jpg);
     }
 }
 /*=============================================*/
