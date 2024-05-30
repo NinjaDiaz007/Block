@@ -16,17 +16,21 @@ Wolf es una potente herramienta de desarrollo diseñada para simplificar la crea
 
 <h1 style="font-size: 64px;">Características</h1>
 
-- **Integración con Bootstrap:** Aprovecha las clases familiares de Bootstrap para una familiaridad inmediata y una curva de aprendizaje suave.
-- **Componentes Únicos de Wolf:** Accede a una amplia variedad de componentes exclusivos diseñados específicamente para Wolf, agregando valor y personalización a tus proyectos.
-- **Personalización Sencilla:** Ajusta y personaliza fácilmente los estilos y comportamientos de los componentes para adaptarlos a tus necesidades específicas.
-- **Documentación Completa:** Disfruta de una documentación exhaustiva que te guiará en el proceso de implementación y te proporcionará ejemplos claros y concisos.
+<ul class="ml-6">
+    <li><b>Integración con Bootstrap: </b>Aprovecha las clases familiares de Bootstrap para una familiaridad inmediata y una curva de aprendizaje suave.</li>
+    <li><b>Componentes Únicos de Wolf: </b>Accede a una amplia variedad de componentes exclusivos diseñados específicamente para Wolf, agregando valor y personalización a tus proyectos.</li>
+    <li><b>Personalización Sencilla: </b>Ajusta y personaliza fácilmente los estilos y comportamientos de los componentes para adaptarlos a tus necesidades específicas.</li>
+    <li><b>Documentación Completa: </b>Disfruta de una documentación exhaustiva que te guiará en el proceso de implementación y te proporcionará ejemplos claros y concisos.</li>
+</ul>
 
 <h1 style="font-size: 64px;">Instalación</h1>
 Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
 
-1. Descarga o clona el repositorio de Wolf.
-2. Agrega el archivo wolf.css a tu proyecto.
-3. Incluye el archivo wolf.js en tu código HTML.
+<ol class="ml-6">
+    <li>Descarga o clona el repositorio de Wolf.</li>
+    <li>Agrega el archivo wolf.css a tu proyecto.</li>
+    <li>Incluye el archivo wolf.js en tu código HTML.</li>
+</ol>
 
 ```html
 <link rel="stylesheet" href="./css/wolf.css">
