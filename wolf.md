@@ -38,4 +38,5 @@ Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
 ```
 
 <h1 style="font-size: 64px;">Descargar</h1>
-<a hred="https://github.com/NinjaDiaz007/Wolf-Framework.git" target="_black">Descargar</a>
+
+[Descargar](https://github.com/NinjaDiaz007/Wolf-Framework.git)
