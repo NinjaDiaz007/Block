@@ -10,6 +10,10 @@ layout: default
     </div>
 </section>-->
 
+<nav class="nav-doc mb-4">
+    <a href="">Documento</a>
+</nav>
+
 
 <h1 style="font-size: 64px;">Descripción</h1>
 Wolf es una potente herramienta de desarrollo diseñada para simplificar la creación de interfaces web dinámicas y responsivas. Este bloque combina la flexibilidad de Bootstrap con componentes únicos del framework propio llamado Wolf, ofreciendo así una experiencia de desarrollo ágil y eficiente.
