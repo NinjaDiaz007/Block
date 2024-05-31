@@ -30,13 +30,14 @@ Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
     <li>Descarga o clona el repositorio de Wolf.</li>
     <li>Agrega el archivo wolf.css a tu proyecto.</li>
     <li>Incluye el archivo wolf.js en tu código HTML.</li>
-</ol>
+</ol><br>
 
 ```html
 <link rel="stylesheet" href="./css/wolf.css">
 <script src="./js/wolf.js">
 ```
 
-<h1 style="font-size: 64px;">Descargar</h1>
+<h1 style="font-size: 64px;">Contribuir</h1>
+Wolf es un proyecto de código abierto. Si deseas contribuir, visita nuestro repositorio en <a target="_black" href="https://github.com/NinjaDiaz007/Wolf-Framework.git">GitHub</a> para más detalles sobre cómo empezar.
 
-[Descargar](https://github.com/NinjaDiaz007/Wolf-Framework.git)
+<h1 style="font-size: 64px;"><a href="../download/wolf.rar">Descargar</a></h1>
