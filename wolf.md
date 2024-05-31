@@ -40,4 +40,4 @@ Para comenzar a utilizar Wolf en tu proyecto, simplemente sigue estos pasos:
 <h1 style="font-size: 64px;">Contribuir</h1>
 Wolf es un proyecto de código abierto. Si deseas contribuir, visita nuestro repositorio en <a target="_black" href="https://github.com/NinjaDiaz007/Wolf-Framework.git">GitHub</a> para más detalles sobre cómo empezar.
 
-<h1 style="font-size: 64px;"><a href="../download/wolf.rar">Descargar</a></h1>
+<h1 style="font-size: 64px;"><a href="../download/wolf.rar" download="">Descargar</a></h1>
