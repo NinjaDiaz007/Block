@@ -11,7 +11,7 @@ layout: default
 </section>-->
 
 <nav class="nav-doc mb-4">
-    <a href="">Documento</a>
+    <a href="./document.html">Documento</a>
 </nav>
 
 
