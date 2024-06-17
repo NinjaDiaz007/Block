@@ -6,7 +6,7 @@ layout: default
     <div class="texto">
         <h1>Soy Alan Fernando Diaz Gardu&#241;o</h1>
         <hr>
-        <p>Desarrollador Font-End</p>
+        <p class="mt-4">Desarrollador Font-End</p>
     </div>
 </section>
 
@@ -21,6 +21,7 @@ layout: default
     <h1>Sobre mi</h1>
 </section>
 
+<hr>
 <section id="portafolio">
     <h1>Portafolio</h1>
 </section>

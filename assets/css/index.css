@@ -29,7 +29,8 @@
 	width: 70%;
 }
 .hero .texto h1{
-	font-size: 70px;
+	font-size: 70px !important;
+	font-weight: bold;
 }
 .hero .texto p{
 	font-size: 30px;
@@ -41,7 +42,6 @@
 /*=============================================*/
 .sobre-mi{
 	width: 100%;
-	background-color: #3b3b3b;
 }
 /*=============================================*/
 /*=============================================*/
