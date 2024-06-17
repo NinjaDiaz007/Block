@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="hero">
-    <div>
+    <div class="texto">
         <h1>Soy Alan Fernando Diaz Gardu&#241;o</h1>
         <hr>
         <p>Desarrollador Font-End</p>
@@ -18,11 +18,9 @@ layout: default
 </nav>
 
 <section id="sobre-mi">
-
-# Sobre mi
+    <h1>Sobre mi</h1>
 </section>
 
 <section id="portafolio">
-
-# Portafolio
+    <h1>Portafolio</h1>
 </section>

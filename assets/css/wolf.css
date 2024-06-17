@@ -707,38 +707,6 @@ h6 {
     }
 }
 /*=============================================*/
-
-/*=============================================*/
-/*============> Hero de Imagenes <=============*/
-/*=============================================*/
-.hero{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 30rem;
-	background-image: url(../images/hero.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-}
-.hero::before{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(59, 59, 59,0.7);
-}
-.hero .texto{
-	text-align: center;
-	color: aliceblue;
-}
-.hero .texto h1{
-	font-size: 70px;
-}
-.hero .texto p{
-	font-size: 30px;
-}
-/*=============================================*/
 /*=============================================*/
 /*=============================================*/
 /*=============================================*/
