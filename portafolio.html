@@ -14,7 +14,61 @@
 
     <body>
         <nav class="nav-ver">
-            <a href="#">about</a>
+            <div class="nombre mb-5">
+                <img src="./assets/images/logo-wolf.png" alt="Letra A">
+                <p class="mt-2">Alan Diaz</p>
+            </div>
+
+            <button id="acercade">Acerca de</button>
+            <button id="skill">Mis Habilidades</button>
+            <button id="work">Trabajos</button>
+            <button id="contact">Contacto</button>
+            <a href="#">Blog</a>
         </nav>
+
+        <div class="slider_menu">
+            <div class="slider">
+                <!-- Apartado Principal -->
+                <section class="principal">
+                    <p class="ml-4">&#60;body&#62;</p>
+                    <p class="ml-6">&#60;div&#62;</p>
+                    <div class="ml-8 display-1">Hola soy Alan, desarrollador web</div>
+                    <p class="ml-6">&#60;/div&#62;</p>
+                    <p class="ml-6 mt-2">&#60;p&#62;</p>
+                    <p class="ml-8 display-3">Desarrollador Web</p>
+                    <p class="ml-6">&#60;/p&#62;</p>
+                    <button class="btn-contacto ml-8 mt-3" onclick="Slider(4)">¡Cont&#225;ctame!</button>
+                    <p class="ml-4">&#60;/body&#62;</p>
+                </section>
+
+                <!-- Acerca de Mi -->
+                <section class="skill">Acerca de</section>
+        
+                <!-- Mis Habilidades -->
+                <section class="skill">Skill</section>
+
+                <!-- Mis trabajos que Realizado -->
+                <section class="acerca-de">Trabajo</section>
+
+                <!-- Forma de Contactarme -->
+                <section class="contacto">
+                    <h1 class="display-1">Contacto</h1>
+
+                    <div class="enlaces"></div>
+
+                    <p><span>Correo Electronico: </span> espejovalido16@gmail.com o ninjadiaz9@gmail.com</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="seccion">
+            <div class="active" id="cir_1" onclick="Slider(0)"></div>
+            <div id="cir_2" onclick="Slider(1)"></div>
+            <div id="cir_3" onclick="Slider(2)"></div>
+            <div id="cir_4" onclick="Slider(3)"></div>
+            <div id="cir_5" onclick="Slider(4)"></div>
+        </div>
+
+        <script src="./assets/js/slider.js"></script>
     </body>
 </html>
