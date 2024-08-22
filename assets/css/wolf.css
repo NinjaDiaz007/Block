@@ -11,6 +11,7 @@
 }
 
 :root{
+    --fondo: #dfdfdf;
     --fuente: 'Ubuntu Mono', monospace;
 
 	--primary: #243465/*#668dc0*/;
@@ -22,6 +23,7 @@
 }
 
 body{
+    background-color: var(--fondo);
     font-family: var(--fuente);
     font-size: 18px;
 }
