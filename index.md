@@ -5,7 +5,7 @@ layout: default
 # Portafolio
 [Ver mas](./portafolio.html)
 
-# Framework: "Wolf"
+# Framework: "Wolf" BETA
 Si bien esta librería comparte ciertas similitudes con Bootstrap en algunas clases, destaca por sus componentes distintivos que forman parte de su propio framework denominado Wolf. Para una exploración más detallada, te invitamos a adentrarte y [descubrir más](./wolf.html). 
 
 
