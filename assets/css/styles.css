@@ -186,6 +186,35 @@ body{
 	font-size: 26px;
 	font-weight: bold;
 }
+
+.contacto .enlaces{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.contacto .enlaces > a{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: block;
+	position: relative;
+}
+.contacto .enlaces > a::before{
+	content: '';
+	width: 3.1em;
+	height: 3.1em;
+	border-radius: 50%;
+	background-color: #eeeeee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+.contacto .enlaces > a img{
+	width: 100%;
+	height: 100%;
+}
 /*=============================================*/
 /*=============================================*/
 
