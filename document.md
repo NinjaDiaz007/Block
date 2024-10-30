@@ -15,15 +15,14 @@ layout: default
 </nav>
 
 # Tipografia
+Para poder tener un diferentes tamaños a diferencia de los normales que se utiliza el h1, h2, h3…h6 con estas clases tiene como funcion de los titulos mas grandes que lo habitual.
 
-Para poder tener un diferentes tama&#241;os a diferencia de los normales que se utiliza el h1, h2, h3...h6 con estas clases tiene como funcion de los titulos mas grandes que lo habitual.
-
-<h3 class="display-1">Hola Mundo</h3>
-<h3 class="display-2">Hola Mundo</h3>
-<h3 class="display-3">Hola Mundo</h3>
+<h1 class="display-1">Hola Mundo</h1>
+<h1 class="display-2">Hola Mundo</h1>
+<h1 class="display-3">Hola Mundo</h1>
 
 ```html
-<h3 class="display-1">Hola Mundo</h3>
-<h3 class="display-2">Hola Mundo</h3>
-<h3 class="display-3">Hola Mundo</h3>
+<h1 class="display-1">Hola Mundo</h1>
+<h1 class="display-2">Hola Mundo</h1>
+<h1 class="display-3">Hola Mundo</h1>
 ```

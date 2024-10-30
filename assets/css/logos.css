@@ -136,6 +136,15 @@
 .telegram{
     filter: invert(40%) sepia(95%) saturate(2359%) hue-rotate(175deg) brightness(88%) contrast(101%);
 }
+.html{
+    filter: invert(36%) sepia(44%) saturate(3287%) hue-rotate(349deg) brightness(93%) contrast(90%);
+}
+.css{
+    filter: invert(18%) sepia(59%) saturate(4349%) hue-rotate(226deg) brightness(106%) contrast(89%);
+}
+.js{
+    filter: invert(91%) sepia(94%) saturate(7471%) hue-rotate(321deg) brightness(113%) contrast(88%);
+}
 /*=============================================*/
 /*=============================================*/
 /*=============================================*/
