@@ -1,0 +1,114 @@
+:root{
+    --morado: #56407F;
+    --naranja: #ED6146;
+    --azul: #7FB3EE;
+}
+
+/*=============================================*/
+/*=========== Paleta de Color claro ===========*/
+/*=============================================*/
+.claro{
+    transition: all .5s ease;
+    background-color: white;
+}
+
+/* Clases para el fondo */
+.claro .fon-1{
+    background-color: var(--morado);
+    color: white;
+}
+.claro .fon-2{
+    background-color: var(--azul);
+}
+.claro .fon-3{
+    background-color: white;
+}
+
+/* Clases para botones o enlaces */
+.claro .link-1{
+    color: white;
+}
+.claro .link-1:hover{
+    color: var(--azul);
+}
+.claro .link-2{
+    background-color: var(--morado);
+    color: white;
+}
+.claro .link-2:hover{
+    background-color: var(--naranja);
+}
+.claro .link-3{
+    background-color: var(--azul);
+}
+.claro .link-3:hover{
+    background-color: var(--naranja);
+}
+
+.claro .bars--menu span{
+    background-color: var(--azul);
+}
+
+/* Clases para el switch */
+.claro .lbl-switch{
+    background-color: var(--azul);
+}
+.claro #switch:checked ~ .lbl-switch{
+    background-color: var(--naranja);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=========== Paleta de Color oscuro ==========*/
+/*=============================================*/
+.oscuro{
+    background-color: #3b3b3b;
+    transition: all .5s ease;
+    color: white;
+}
+
+/* Clases para el fondo */
+.oscuro .fon-1{
+    background-color: #1b1b1b;
+    color: white;
+}
+.oscuro .fon-3{
+    background-color: #3b3b3b;
+    color: white;
+}
+
+/* Clases para los botones o enlaces */
+.oscuro .link-1{
+    color: white;
+}
+.oscuro .link-1:hover{
+    color: var(--azul);
+}
+.oscuro .link-2{
+    background-color: var(--naranja);
+    color: white;
+}
+.oscuro .link-2:hover{
+    background-color: var(--azul);
+}
+
+/* Clases para el switch */
+.oscuro .lbl-switch{
+    background-color: var(--azul);
+}
+.oscuro #switch:checked ~ .lbl-switch{
+    background-color: var(--naranja);
+}
+
+/* Clases para bordes */
+.oscuro .borde{
+    border: 1px solid white;
+}
+/*=============================================*/
+
+.link-default{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(158deg) brightness(103%) contrast(101%);
+}
+.link-default:hover{
+    filter: invert(55%) sepia(56%) saturate(5153%) hue-rotate(337deg) brightness(104%) contrast(86%);
+}
