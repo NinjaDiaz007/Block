@@ -11,6 +11,10 @@ Si bien esta librería comparte ciertas similitudes con Bootstrap en algunas cla
 # Test Vocacional "Demo"
 Es un test vocacional de las carreras que hay en el tec pero por el momento esta en una pausa por estar realizando otras actividades y el complemento que ocupa debe ser ejecutado del mismo ordenado por el lenguje de prgramaci&#243;n "Python" [Ir al test](./IA/index.html).
 
+# Blog "Temporal"
+Blog creado temporal para ver mas al 
+[Blog del test vcacional](./blog.html).
+
 
 <!--
 | head1        | head two          | three |
