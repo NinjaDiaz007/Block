@@ -15,6 +15,8 @@ Es un test vocacional de las carreras que hay en el tec pero por el momento esta
 Blog creado temporal para ver mas al 
 [Blog del test vcacional](./blog.html).
 
+# Documentaci&#243;n del Test Vocacional
+Con este documento se estara describiendo en como se debe realizar para poder ejecutar adecuadamente la **IA** de forma local para saber mas [Ir a la pagina](./documentacion_testvocacinal.html).
 
 <!--
 | head1        | head two          | three |
