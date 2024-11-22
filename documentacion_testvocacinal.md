@@ -29,17 +29,20 @@ La IA procesa los datos de entrada, válida las respuestas y genera los resultad
     - Durante la instalación, asegúrate de marcar la opción Add Python to PATH.
 2. Configurar el entorno Python:
     - Abre una terminal o línea de comandos.
-    - Crea un entorno virtual en caso de usar una vercion de linux 21 en adelante:
+    - Crea un entorno virtual en caso de usar una verci&#243;n de linux 21 en adelante:
         - comando para instalar el entorno virtual
+        
         ```
         sudo apt install python3-venv
 
         sudo dnf install python3-venv
         ``` 
         - Comando para instalarlo en la carpeta raiz
+        
         ```
         python3 -m venv .venv
         ```
+
         - Comando para activar el entorno virtual
         ```
         source venv/bin/activate
@@ -49,11 +52,13 @@ La IA procesa los datos de entrada, válida las respuestas y genera los resultad
 Estos comando se colocan en la consola y le dan enter estos comandos sirven para cualquier sistema operativo que tengan **Python**
 
 - Para instalar pip:
+
     ```
     sudo apt-get install python-pip <- Python2
     sudo apt-get install python3-pip <- Python3
     ```
 - Para instalar sklearn: 
+
     ```
     pip install -U scikit-learn
     ```
