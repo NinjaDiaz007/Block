@@ -5,6 +5,15 @@ let finality = document.getElementById("finality");
 let card = document.getElementById("card");
 let reboot = document.getElementById("reboot");
 
+let enviar = document.getElementById("enviar");
+let card2 = document.getElementById("card-2")
+let cont = 1;
+
+let Lista_Respuesta = new Array();
+
+let imgH = document.getElementById("img-h");
+let btn_hamburgesa = document.getElementById("lbl-hamburgesa");
+
 let slider = document.querySelector(".slide");
 let sliderIndividual = document.querySelectorAll(".slider");
 let contador = 1;
@@ -92,7 +101,24 @@ reboot.addEventListener('click', ()=>{
     location.reload();
 });
 
+btn_hamburgesa.addEventListener('click', ()=>{
+    if(btn_hamburgesa.checked === false){
+        imgH.src = "./img/close.svg";
+    }
+});
+
+enviar.addEventListener('click', ()=>{
+    guardarArchivoDeTexto(Lista_Respuesta, "informacion.txt");
+    Cerrar_Modal();
+    card2.style.left = "50%";
+});
+
 // Funciones
+function Init(){
+    PreguntasPantalla();
+}
+Init();
+
 function PreguntasPantalla(){
     let i;
     let texto = document.querySelectorAll(".txt");
@@ -102,8 +128,17 @@ function PreguntasPantalla(){
         //console.log(`Pregunta: ${preguntas[i]}`);
     }
 }
-PreguntasPantalla();
 
 function Cerrar_Modal(){
     card.style.left = "-50%";
+}
+
+// Botones que son "si"
+function Precion_SI(argument) {
+	Lista_Respuesta.push(argument+". Si");
+}
+
+// Botones que son "no"
+function Precion_NO(argument) {
+	Lista_Respuesta.push(argument+". No");
 }
