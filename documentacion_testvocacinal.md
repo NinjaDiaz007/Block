@@ -3,7 +3,11 @@
 ## Introducción
 El sistema de test vocacional está diseñado para orientar a los usuarios en la elección de una carrera universitaria. Combina una página web interactiva con una inteligencia artificial (IA) que analiza las respuestas del usuario y genera gráficos que representan los resultados.
 
-## Diagrama de clases
+## Diagramas
+### Diagrama de Uso
+<img src="./assets/images/Diagra_UML_usuario.png" style="text-align: center;">
+
+### Digrama de Clases
 <img src="./assets/images/diagrama.jpg" style="text-align: center;">
 
 ## Preguntas Frecuentes (FAQ)
